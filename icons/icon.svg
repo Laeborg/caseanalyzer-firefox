@@ -1,26 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="25 35 45 30">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
     <!-- Case bottom shadow -->
     <path 
-        d="M30 45 L70 45 L65 65 L25 65 Z" 
+        d="M5 15 L45 15 L40 35 L0 35 Z" 
         fill="#B25E09"
     />
     
     <!-- Case main -->
     <path 
-        d="M25 35 L65 35 L70 45 L30 45 Z" 
+        d="M0 5 L40 5 L45 15 L5 15 Z" 
         fill="#FF9623"
     />
     
     <!-- Case shine -->
     <path 
-        d="M25 35 L65 35 L67 37 L27 37 Z" 
+        d="M0 5 L40 5 L42 7 L2 7 Z" 
         fill="#FFB866"
     />
     
     <!-- Key head -->
     <circle 
-        cx="60" 
-        cy="50" 
+        cx="35" 
+        cy="20" 
         r="8" 
         fill="#E5C449"
         stroke="#42362D"
@@ -29,14 +29,14 @@
     
     <!-- Key teeth -->
     <path 
-        d="M58 48 L62 48 L62 52 L58 52 Z" 
+        d="M33 18 L37 18 L37 22 L33 22 Z" 
         fill="#42362D"
     />
     
     <!-- Key shaft -->
     <rect 
-        x="35" 
-        y="48" 
+        x="10" 
+        y="18" 
         width="25" 
         height="4" 
         fill="#E5C449"
@@ -44,7 +44,7 @@
 
     <!-- Optional CS logo pentagon -->
     <path 
-        d="M57 46 L63 46 L61 54 L55 54 Z" 
+        d="M32 16 L38 16 L36 24 L30 24 Z" 
         fill="#42362D"
         opacity="0.7"
     />
