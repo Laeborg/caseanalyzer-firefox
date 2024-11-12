@@ -334,8 +334,6 @@ function updateStatsFromColor(color) {
 }
 
 function saveSkinStats(skin) {
-  console.log(skin);
-
   numberOfOpenedCases++;
 
   if (skin.color.includes("eb4b4b")) {
