@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "CS2 Case Opening Analyzer",
   "description": "Analyze CS2 Case Openings from your Steam Inventory History.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage_url": "https://github.com/laeborg/caseanalyzer-firefox",
   "permissions": ["activeTab"],
   "content_scripts": [
