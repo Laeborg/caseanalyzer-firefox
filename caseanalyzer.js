@@ -1,10 +1,12 @@
 const RETRY_DELAY = 5000;
 const MAX_RETRIES = 3;
 const DEBUG = true;
+
 let numberOfOpenedCases = 0;
 let foundFirstGold = false;
 let skinStats = {};
 let knifePulls = [];
+
 const totalPulls = [];
 
 // Stats tracking
@@ -59,7 +61,7 @@ function createUI() {
           <div>Entries Scanned: <span id="entriesScanned">0</span></div>
           <div>Last Date: <span id="lastDate">-</span></div>
       </div>
-      <div id="pullArea"></div>
+      <div id="pullArea" style="height: auto; max-height: 55vh; overflow-x: scroll;"></div>
       <button id="analyzeBtn" style="margin-top:20px; width: 100%; padding: 7px 10px; background: #2574A9; border: 1px solid #1C577F; color: #EDF1F3; border-radius: 7px; cursor: pointer;">Analyze History</button>
       <div style="margin-top: 20px; text-align: center;">
           <p style="opacity:70%; font-size: 10px; margin: 0px auto;">Made with ❤️ by<br /><a style="color:#FFFFFF; text-decoration:underline;" target="_blank" href="https://github.com/Laeborg">Jonas Læborg</a></p>
